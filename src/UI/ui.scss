@@ -1,0 +1,156 @@
+.loader__cnt {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//rate
+.rate {
+  &__rate-cnt {
+    display: inline-flex;
+    align-items: center;
+  }
+  &__rate {
+    margin-top: 4px;
+    font-size: 1.2rem;
+    color: #146d9e;
+    font-weight: 700;
+  }
+  &__rate-voites {
+    margin-top: 3px;
+    margin-left: 3px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+
+.ant-rate {
+  font-size: 18px;
+  margin-left: -5px;
+  margin-top: -2px;
+}
+.ant-rate-star-second .anticon {
+  vertical-align: auto;
+}
+.ant-rate-star:not(:last-child) {
+  margin-right: 2px !important;
+}
+
+.ant-form-item {
+  margin-bottom: 8px !important;
+}
+.ant-back-top {
+  right: 30px !important;
+}
+
+//fav
+.fav {
+  &__cnt {
+    position: absolute;
+    z-index: 5;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  &__alert {
+    position: absolute;
+    z-index: 5;
+    // right: 0;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+//goBackBtn
+.goback {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 5;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+//dividerUI
+.dividerui {
+  height: 2px;
+  width: 100%;
+  background-color: transparent;
+}
+
+//circle number
+.circle {
+  display: flex;
+  min-width: 25px;
+  min-height: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  &__number {
+    color: #000;
+    font-weight: 700;
+  }
+}
+
+//edit name
+.edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__body {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  &__name {
+    margin-bottom: -3px;
+    font-size: 1.5rem;
+  }
+  &__old {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span {
+      font-size: 2rem;
+      line-height: 0;
+      margin-right: 5px;
+    }
+    margin-bottom: 2rem;
+  }
+}
+.form-edit {
+  &__input {
+    width: 100%;
+    margin-bottom: 2rem;
+    input {
+      padding: 0.5rem 1rem;
+      width: 100%;
+      font-size: 1.2rem;
+      outline: 3px solid pink;
+      border: none;
+      &:focus {
+        outline: 3px solid violet;
+      }
+    }
+  }
+  &__btn {
+    button {
+      padding: 0.7rem 1rem;
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 1;
+      background-color: pink;
+      border: none;
+      width: 100%;
+    }
+  }
+}

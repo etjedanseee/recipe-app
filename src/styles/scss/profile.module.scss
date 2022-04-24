@@ -1,0 +1,27 @@
+.container {
+  padding: 1rem 2rem;
+  position: relative;
+  height: 100vh;
+}
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.login {
+  font-size: 2rem;
+}
+.name {
+  div {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+}
+.edit {
+  font-size: 1.5rem;
+  background-color: teal;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+}
